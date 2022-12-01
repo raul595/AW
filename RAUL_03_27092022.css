@@ -1,0 +1,14 @@
+/*
+
+    27 de Septiembre 2022
+    Autor: Raul Alexandru Calin
+    Hoja de estilo css
+*/
+h1{
+border: 10px solid blue;
+text-align: center;
+color: white;
+background-color: rgba(0,0,0,0.7);
+margin: 1%;
+padding: 20px;
+border-radius: 25px; 

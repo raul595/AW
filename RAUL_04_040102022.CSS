@@ -1,0 +1,16 @@
+/*
+RAUL
+4 de octubre
+
+*/
+nav{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+img{
+    width: 70%;
+    border: 10px double black;
+    margin: auto;
+    display: block;
+}

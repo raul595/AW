@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td,th{
+    border: 4px solid black;
+}
+.fila0{
+    background-color: grey;
+}
+.fila1{
+    background-color:lightslategrey
+}
+.fila3{
+    background-color: lightslategrey;
+}
+.fila5{
+    background-color: lightslategrey;
+}
+.vacio{
+    border: none;
+    background-color: antiquewhite;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    border: 5px solid black;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    background-color: lightgreen;
+}

@@ -1,0 +1,25 @@
+/*
+RAUL
+Martes 11 de Noviembre 2022
+*/
+.Grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Grid img{
+    width: 100%;
+    border: 3px solid white;
+    margin: auto
+}
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+

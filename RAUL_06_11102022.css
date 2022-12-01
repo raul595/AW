@@ -1,0 +1,52 @@
+/*
+Raul
+Martes 11 de Octubre 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+img{
+    float: left;
+    width: 72%;
+    border: 5px double;
+}
+.MenuH{
+    overflow: hidden;
+    border: 5px double;
+    padding: 10px;
+}
+.MenuV{
+   float: left;
+   width: 26%;
+   overflow: hidden;
+   border: 5px double;
+}
+
+.MenuV a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    float: left;
+}
+.MenuV a:hover{
+    background-color: green;
+    color: black;
+    overflow: hidden;
+}
+.MenuH a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+.menuH a:hover{
+background-color: white;
+color: black;
+}

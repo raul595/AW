@@ -1,0 +1,40 @@
+/*
+Raul
+Noviembre de 2022
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header, footer{
+    background-image:radial-gradient(white, green);
+    padding: 20px;
+    text-align: center;
+    text-shadow: -5px -5px -5px black;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+video{
+    box-shadow: 5px -5px 5px red;
+    margin: auto;
+    display: block;
+}  
+body{
+    height: 1600px;
+    background-image:linear-gradient(to bottom, red,blue, white);
+    font-family: font-family: 'Xanh Mono', monospace;
+}
+main{
+    margin: auto;
+    margin: 20%;
+    margin-top: 50px;
+}
+iframe{
+width: 600px;
+height: 800px;
+}

@@ -1,0 +1,62 @@
+<title>One Page Scroll</title>
+    <link rel="stylesheet" href="raul_15_29112022.css">
+    <script>
+        function Mostrar(){
+            var elemento = document.getElementById("imagen1");
+            elemento.style.display = "block";
+        }
+        function Ocultar (){
+            var elemento = document.getElementById("imagen1");
+            elemento.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <nav id="Menu">
+        <a href="#Inicio">Inicio</a>
+        <a href="#Servicios">Servicios</a>
+        <a href="#Galeria" onmouseover="Mostrar()" onmouseout="Ocultar()">Galeria</a>
+        <a href="#Contacto">Contacto</a>
+    </nav>
+    <img id="imagen1"src="./img/grafica1.jpg" alt="foto1">
+    <section id="Inicio">
+        <h1>Inicio</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Praesentium, libero, accusantium voluptatum accusamus 
+            velit repellendus perferendis consequuntur quidem cum 
+            cupiditate enim vero fuga illum maxime expedita odit 
+            voluptates voluptatibus nemo!</p>
+        <a href="#Menu">Menu</a>
+    </section>
+    <section id="Servicios">
+        <h1>Servicios</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Praesentium, libero, accusantium voluptatum accusamus 
+            velit repellendus perferendis consequuntur quidem cum 
+            cupiditate enim vero fuga illum maxime expedita odit 
+            voluptates voluptatibus nemo!</p>
+        <a href="#Menu">Menu</a>
+    </section>
+    <section id="Galeria">
+        <h1>Galeria</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Praesentium, libero, accusantium voluptatum accusamus 
+            velit repellendus perferendis consequuntur quidem cum 
+            cupiditate enim vero fuga illum maxime expedita odit 
+            voluptates voluptatibus nemo!</p>
+        <a href="#Menu">Menu</a>
+    </section>
+    <section id="Contacto">
+        <h1>Inicio</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Praesentium, libero, accusantium voluptatum accusamus 
+            velit repellendus perferendis consequuntur quidem cum 
+            cupiditate enim vero fuga illum maxime expedita odit 
+            voluptates voluptatibus nemo!</p>
+        <a href="#Menu">Menu</a>
+    </section>
+    <footer>
+        <p>RAÚL ALEXANDRU CALIN</p>
+    </footer>
+</body>
+</html>

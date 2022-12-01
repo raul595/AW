@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+section{
+    padding: 50px 0px 50px 0px;
+    text-align: justify;
+}
+img{
+    width: 250px;
+    margin: auto;
+    display: none;
+    border: 2px solid  black;
+    animation-name: animacion;
+    animation-duration: 2s;
+}
+section a{
+    padding: 25px;
+}
+
+h1{
+    background-color: beige;
+}
+
+p{
+    padding: 25px;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+ }
+ footer{
+    position: fixed;
+    bottom: 0px;
+    border: 3px solid black;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+ @media (min-width: 600px){
+    nav{
+        font-size: 2em;
+    }
+    nav a{
+        padding: 25px;
+        background-color: rgb(124, 117, 220);
+    }
+ }
+
+ @media (max-width:600px) and (min-width: 400px){
+    nav{
+        font-size: 1.5em;
+        background-color:rgb(230, 66, 115);
+    }
+    nav a{
+        padding: 15px;
+    }
+ }
+
+ @media (max-width:400px) {
+    nav{
+        grid-auto-flow: row;
+        font-size: 1em;
+        background-color:rgb(171, 243, 157);
+    } 
+ }
+
+ @keyframes animacion{
+    from {opacity: 0;}
+    to   {opacity: 1;}
+ }

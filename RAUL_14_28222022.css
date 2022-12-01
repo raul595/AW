@@ -1,0 +1,63 @@
+/* 
+    RAÚL ALEXANDRU CALIN
+    PSEUDOCLASES.CSS
+    29/11/2022
+*/
+article{
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 3px solid brown;
+}
+*{
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+p::first-letter{
+    font-size: 3em;
+    color: brown;
+}
+*::selection{
+    background: red;
+}
+
+main{
+    padding: 10px;
+    background-image: linear-gradient(to bottom, orange,white);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#titulo2{
+    color: white;
+    text-transform: lowercase;
+}
+
+#titulo2::before,#titulo2::after{
+    content:"''";
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 5px;
+}
+body{
+    
+}
+p::first-line{
+    color: green;
+}
+footer{
+    align-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 90%;
+    border: 5px;
+    border: solid orange;
+    background-color: orange;
+    
+}

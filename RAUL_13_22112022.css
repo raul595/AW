@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/mundial_2022.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1600px;
+}
+header,footer{
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    border: dashed;
+    padding: 20px;
+    
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header,footer{
+    background-color: beige;
+    padding: 20px;
+    opacity: 0.7;
+}
+header{
+position: fixed;
+width: 100%;
+top: 0px;
+}
+
+video{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}

@@ -1,0 +1,51 @@
+/*
+    Raul
+    10 de cotubre 2022
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+div{
+    padding: 25px;    
+    float: left;
+    width: 25%;
+}
+.negro{
+    background-color: grey;
+    float: left;
+    width: 100%;
+
+}
+.azul{
+    background-color: blue;
+    border-radius: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+    
+}
+.amarillo
+{
+    background-color: yellow;
+    border-radius: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+.rojo
+{
+    background-color: red; 
+    border-radius: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+       
+}
+.verde
+{
+    background-color: green;
+    float: left;
+    width: 100%;
+}
+
